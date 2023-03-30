@@ -1,7 +1,7 @@
 import React from 'react'
 
 import logo from "../images/logo.svg";
-import { pageLinks, socialLinks } from "../data";
+import { socialLinks } from "../data";
 import PageLinks from "./PageLinks";
 import SocialLink from "./SocialLinks";
 

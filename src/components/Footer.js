@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import { pageLinks, socialLinks } from "../data"
+import { socialLinks } from "../data";
 import PageLinks from "./PageLinks";
 import SocialLinks from "./SocialLinks";
 
@@ -11,7 +11,6 @@ const Footer = () => {
             <PageLinks parentClass='footer-links' itemClass='footer-link' />
             <ul className="footer-icons">
                 {socialLinks.map((link) => {
-                    const { id, href, icon, } = link
                     return (
                         <SocialLinks key={link.id} {...link} itemClass="footer-icon" />
 
